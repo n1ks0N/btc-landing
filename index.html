@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Changer</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+    
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+  <!-- Wheel -->
+  <script src="drewlex_main.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header__logo">
+      <h1 class="header__title">Changer</h1>
+    </div>
+    <div class="header__menu">
+      <nav>
+        <a href="#portfolio">
+          <li class="header__menu__item">Portfolio</li>
+        </a>
+        <a href="#adv">
+          <li class="header__menu__item">Advantages</li>
+        </a>
+        <a href="#earn">
+          <li class="header__menu__item">Earning</li>
+        </a>
+        <a href="#offer">
+          <li class="header__menu__item">Start</li>
+        </a>
+      </nav>
+      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#wheelModal">Get
+        Bitcoin</button>
+    </div>
+  </header>
+  <main>
+    <section class="main fade-in">
+      <div class="content">
+        <div class="content__container">
+          <p class="content__container__text">
+            You can
+          </p>
+          <ul class="content__container__list">
+            <li class="content__container__list__item">trade</li>
+            <li class="content__container__list__item">invest</li>
+            <li class="content__container__list__item">earn</li>
+            <li class="content__container__list__item">hold</li>
+          </ul>
+        </div>
+      </div>
+      <div class="main__text">
+        <p class="text">Transfer USD, EUR, or Crypto.<br>You can earn your first bitcoins today!</p>
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#wheelModal">Get Bitcoin</button>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h3 class="subtitle">Portfolio</h3>
+      <div class="portfolio__wrapper">
+        <div class="portfolio__content">
+          <h2 class="title portfolio__title">Your portfolio, at your fingertips</h2>
+          <p class="text">Get verified, get funded, and track your assets across all of your screens. Whether this is
+            your first or five millionth investment, we’ve got tools built just for you.</p>
+        </div>
+        <div>
+          <img src="img/portfolio.png" alt="Portfolio" class="portfolio__img">
+        </div>
+      </div>
+    </section>
+    <section id="adv" class="adv">
+      <h3 class="subtitle">Advantages</h3>
+      <h2 class="title adv__title">Buy crypto in minutes</h2>
+      <div class="adv__wrapper">
+        <div class="adv__item">
+          <div class="adv__item__img"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+              class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+              <path fill-rule="evenodd"
+                d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+            </svg></div>
+          <h5 class="adv__item__title">Sign up</h5>
+        </div>
+        <div class="adv__item">
+          <div class="adv__item__img"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+              class="bi bi-coin" viewBox="0 0 16 16">
+              <path
+                d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z" />
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+              <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+            </svg></div>
+          <h5 class="adv__item__title">Fund</h5>
+        </div>
+        <div class="adv__item">
+          <div class="adv__item__img">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-wallet2"
+              viewBox="0 0 16 16">
+              <path
+                d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+            </svg>
+          </div>
+          <h5 class="adv__item__title">Buy</h5>
+        </div>
+      </div>
+    </section>
+    <section id="earn" class="earn">
+      <h3 class="subtitle">Earn</h3>
+      <div class="earn__wrapper">
+        <div>
+          <img src="img/earn.png" alt="Earn" class="earn__img">
+        </div>
+        <div class="earn__content">
+          <h2 class="title earn__title">Put your money to work</h2>
+          <p class="text earn__text">Earn up to 25% interest on your assets, and find more yield-generating offers. It’s that
+            simple.</p>
+          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#wheelModal">Get Bitcoin</button>
+        </div>
+      </div>
+    </section>
+    <section id="offer" class="offer"> 
+      <div>
+      <h2 class="title">Click. Buy. Earn.</h2>
+      <p class="text">Build your crypto portfolio, wherever you are with our web and mobile apps.</p>
+      </div>
+      <div>
+        <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#wheelModal">Get BTC now</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="footer__text">All rights reserved © 2021</p>
+  </footer>
+
+  <!-- Modal wheel -->
+  <div class="modal fade" id="wheelModal" tabindex="-1" aria-labelledby="wheelModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="wheelModalLabel">Free bitcoin</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class='features-wrapper'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Wheel init -->
+  <script>initFeatures({
+      lang: 'en', // список языков - vn, it, es, co, hr, en, de, fr, ph, cz, id, th, gr, bg, al, ro, sg, en_sg, mk, si, sk, lv, hu, pl, lt, pt
+      product: 'Bitcoin', // название продукта
+      genderTargetting: 'all', // пол целевой аудитории - all, male, female
+
+      form: {
+        isNeeded: 1, // 1-включить форму, 0-выключить
+        img: '', // путь до картинки продукта
+        price: true, // плашка с ценой
+        priceBrFix: true, // фиксит отображение цен в ценике (true - уберает перенос строки)
+        showSelect: false, // показывать или скрывать поле select
+        untilExpire: 600 // таймер окончания акции где 600 = 10мин. Ставим 0 если таймер не нужен.
+      },
+
+      autoComments: {
+        isNeeded: 0, // 1-включить автокомы, 0-выключить
+        bgColor: '#d7f2d8' // цвет фона блока комчиков
+      },
+
+      popups: {
+        isNeeded: 0, // 1-включить попы, 0-выключить
+        bgColor: 'rgba(87, 86, 141, 0.8)', // цвет фона сообщения
+        textColor: '#fff', // цвет основного текста сообщения
+        emphColor: 'cyan', // цвет выделений в сообщениях (например, 'со скидкой XX%', '' )
+        blackIcons: false // черные или белые иконки, значения true или false
+      },
+
+      wheel: {
+        isNeeded: 1, // 1-включить колесо, 0-выключить
+        customWheel: false // ссылка на свое колесо, либо false
+      }
+    });
+  </script>
+</body>
+
+</html>
