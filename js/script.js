@@ -1,5 +1,5 @@
 const windowWidth = $(window).innerWidth()
-if (windowWidth > 500) {
+if (windowWidth) {
   $(window).scroll(() => {
     const windowHeight = $(window).innerHeight()
     if ($('.portfolio').position().top - windowHeight + $('.portfolio').height() / 2 <= $(window).scrollTop()) {

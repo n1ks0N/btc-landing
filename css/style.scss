@@ -385,9 +385,9 @@ footer {
 
 /* Media Queries */
 @media screen and (max-width: 500px) {
-  .portfolio__content, .portfolio__img, .adv__item, .earn__img, .earn__content, .offer {
-    opacity: 1;
-  }
+  // .portfolio__content, .portfolio__img, .adv__item, .earn__img, .earn__content, .offer {
+    // opacity: 1;
+  // }
   .header__logo, .header__menu__item_extra {
     display: none;
   }
@@ -438,5 +438,8 @@ footer {
   }
   .earn__img {
     margin-bottom: 25px;
+  }
+  .adv__item {
+    margin: 15px;
   }
 }
