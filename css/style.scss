@@ -93,9 +93,9 @@ nav {
 }
 .content {
   position: absolute;
-  top: 50%;
+  top: 200px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   height: 160px;
   overflow:hidden;
   
@@ -378,4 +378,43 @@ footer {
 }
 .cursor-text {
   opacity: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+  .portfolio__content, .portfolio__img, .adv__item, .earn__img, .earn__content, .offer {
+    opacity: 1;
+  }
+  .header__logo, .header__menu__item_extra {
+    display: none;
+  }
+  .header__menu {
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+  nav {
+    width: 250px;
+  }
+  header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .portfolio__wrapper, .adv__wrapper, .earn__wrapper {
+    flex-wrap: wrap;
+  }
+  .portfolio__img, .earn__img, .earn__text {
+    width: 100vw;
+    height: auto;
+  }
+  .earn {
+    margin: 0;
+  }
+  .earn__content {
+    text-align: center;
+  }
+  .offer {
+    padding: 0;
+    @include flexColumn();
+    text-align: center;
+  }
 }

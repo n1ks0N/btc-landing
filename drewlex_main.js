@@ -1226,7 +1226,7 @@ function initFeatures(settings) {
         }
 
         $('.features-wrapper').append(commBlocks[settings.lang].autoCommWrap + commBlocks[settings.lang].autoComm1 + commBlocks[settings.lang].autoComm2 + commBlocks[settings.lang].autoComm3 + commBlocks[settings.lang].autoComm4 + commBlocks[settings.lang].autoComm5 + commBlocks[settings.lang].autoComm6 + commBlocks[settings.lang].autoComm7 + commBlocks[settings.lang].autoComm8 + commBlocks[settings.lang].autoComm9 + commBlocks[settings.lang].autoComm10 + '<style>@import url("' + featuresFilesSrc.autoCommStyles + '");.comments-refreshing-wrapper {background-color: ' + settings.autoComments.bgColor + ' !important}</style>');
-
+        
 
 
 
@@ -1847,7 +1847,7 @@ function initFeatures(settings) {
                         start_timer();
                     }
                 }, 10000);
-                wheel.classList.add('rotated');
+                wheel.classList.add('w');
             }
 
             $('.order_block').eq(1).css('display', 'none')
