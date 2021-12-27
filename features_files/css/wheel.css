@@ -146,7 +146,7 @@
 	-moz-border-bottom-colors: none;
 	-moz-border-left-colors: none;
 	border-image: none;
-	transform: (-45deg);
+	transform: rotate(-45deg);
 	transition: opacity 1s ease 0s;
 	animation: .5s ease .6s normal backwards 1 running pop-up-appear-after
 }
@@ -233,7 +233,8 @@
 		-webkit-box-shadow: 0 0 10px #fff;
 		box-shadow: 0 0 10px #fff;
 		right: -10px;
-		cursor: pointer
+		cursor: pointer;
+		background-color: #fff;
 	}
 }
 .super-rotation {

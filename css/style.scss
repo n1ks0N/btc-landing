@@ -379,6 +379,9 @@ footer {
 .cursor-text {
   opacity: 0;
 }
+.order_block {
+  margin-top: 50px;
+}
 
 /* Media Queries */
 @media screen and (max-width: 500px) {
@@ -416,5 +419,24 @@ footer {
     padding: 0;
     @include flexColumn();
     text-align: center;
+  }
+  .content {
+    top: 100px;
+  }
+  .subtitle {
+    margin-bottom: 25px;
+  }
+  section {
+    margin: 0;
+    padding: 50px 25px;
+  }
+  .portfolio {
+    background-color: #333;
+  }
+  .adv {
+    height: auto;
+  }
+  .earn__img {
+    margin-bottom: 25px;
   }
 }
