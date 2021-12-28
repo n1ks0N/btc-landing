@@ -77,7 +77,8 @@
 	border-radius: 50%;
 	-webkit-box-shadow: 0 0 10px #fff;
 	box-shadow: 0 0 10px #fff;
-	right: -40px
+	right: -40px;
+	background-color: #fff;
 }
 .cursor-text:active {
 	-webkit-box-shadow: rgba(0, 0, 0, .4) 0 0 5px inset;
